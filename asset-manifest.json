@@ -1,12 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4232ec4d.css",
-    "main.js": "/portfolio/static/js/main.f1adc7ca.js",
+    "main.css": "/portfolio/static/css/main.091ce75f.css",
+    "main.js": "/portfolio/static/js/main.6f8321a8.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/jos.svg": "/portfolio/static/media/jos.b8c72b286aff02e47e56d4219e6f906d.svg",
     "static/media/profile.svg": "/portfolio/static/media/profile.2a3462ac41a5f652d6d78542fbc7fe65.svg",
+    "static/media/asetaset.png": "/portfolio/static/media/asetaset.82dbe4edb80c6de52b52.png",
+    "static/media/jetpacker.png": "/portfolio/static/media/jetpacker.5160a4b3454fdbf1a245.png",
     "static/media/react.svg": "/portfolio/static/media/react.2cd2d850239021f26dbabd32238a9207.svg",
+    "static/media/bidwbuy.png": "/portfolio/static/media/bidwbuy.054adbff11bc4a8f5e73.png",
+    "static/media/technoscape.png": "/portfolio/static/media/technoscape.e15d7c635e903deaf376.png",
     "static/media/asp.svg": "/portfolio/static/media/asp.29f2c6ee5d50be2d07f1963576f53026.svg",
+    "static/media/technotic.png": "/portfolio/static/media/technotic.da4dee2ce00da045c7cb.png",
+    "static/media/leap.png": "/portfolio/static/media/leap.78e7f20a082329b05862.png",
     "static/media/mysql.svg": "/portfolio/static/media/mysql.39e186e66afec97def3a845cbbe4cc31.svg",
     "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.5ce7fee849b584a735506dab79d13c4c.svg",
     "static/media/nodejs.svg": "/portfolio/static/media/nodejs.4e73df535daeb1491dcb9b7cdecdf765.svg",
@@ -19,12 +25,13 @@
     "static/media/css.svg": "/portfolio/static/media/css.41ff6f5b5ae13fce2401e8922d846ee8.svg",
     "static/media/python.svg": "/portfolio/static/media/python.1d1cb3b05e5ae314e2423f57810fcdc7.svg",
     "static/media/java.svg": "/portfolio/static/media/java.3ac9ecf152e03fb62b50efea7cffcec4.svg",
-    "static/media/github.svg": "/portfolio/static/media/github.0834b1ad42d873b0efdc0afdd092b7cb.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.980a0b1a367ee03b1f725157617208fa.svg",
     "static/media/c.svg": "/portfolio/static/media/c.df8debb3c1f70ca153dbbf7e56fc0ff2.svg",
     "static/media/html.svg": "/portfolio/static/media/html.ab48fe0e1c365d6ac74ebc8f3d2ece63.svg",
     "static/media/code.svg": "/portfolio/static/media/code.5adf812f0624ea6c100c1b8346d2edb9.svg",
     "static/media/cv.svg": "/portfolio/static/media/cv.342fc6bf876bf0ef7c27a53688783bd9.svg",
     "static/media/instagram.svg": "/portfolio/static/media/instagram.21852edffa048c18b4e9b13fe94529b1.svg",
+    "static/media/projects.svg": "/portfolio/static/media/projects.d90bcc524995f636476cbb5a98d681a8.svg",
     "static/media/about.svg": "/portfolio/static/media/about.b91c64070f013b2f7fced44326f08fbc.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.3da440304e2e348c7a67ac448b17ed2e.svg",
     "static/media/twitter.svg": "/portfolio/static/media/twitter.a0818f25229c34f7369b8155b0cbeafa.svg",
@@ -32,13 +39,14 @@
     "static/media/logo.svg": "/portfolio/static/media/logo.591afaf536c952b160ad67cf8bdeb9aa.svg",
     "index.html": "/portfolio/index.html",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.6bd06457a3a24b30f233fe31435e7fde.svg",
+    "static/media/view.svg": "/portfolio/static/media/view.93de113dad947bb724a62bd0b713078e.svg",
     "static/media/skillsnprojects.svg": "/portfolio/static/media/skillsnprojects.600dfdaa3d8b9b9b8fab.svg",
-    "main.4232ec4d.css.map": "/portfolio/static/css/main.4232ec4d.css.map",
-    "main.f1adc7ca.js.map": "/portfolio/static/js/main.f1adc7ca.js.map",
+    "main.091ce75f.css.map": "/portfolio/static/css/main.091ce75f.css.map",
+    "main.6f8321a8.js.map": "/portfolio/static/js/main.6f8321a8.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4232ec4d.css",
-    "static/js/main.f1adc7ca.js"
+    "static/css/main.091ce75f.css",
+    "static/js/main.6f8321a8.js"
   ]
 }
