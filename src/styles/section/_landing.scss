@@ -1,0 +1,298 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+body{
+    font-family: 'Poppins';
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing-page .landing-background{
+    position: relative;
+    z-index: -1;
+}
+
+.landing-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 7rem;
+    // position: absolute;
+    z-index: 2;
+}
+
+.landing-container .landing-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.greetings h1{
+    font-size: 40px;
+    color: $black;
+    margin: 1px;
+}
+
+.landing-name h1{
+    font-size: 64px;
+    color: $black;
+    margin: 1px;
+}
+
+.landing-job h1{
+    font-size: 48px;
+    color: $light-blue;
+    margin: 1px;
+}
+
+.landing-social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 30px;
+}
+
+.landing-social-media img{
+    margin: 0;
+}
+
+.landing-social-media img:hover{
+    transform: scale(110%);
+}
+
+.landing-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.landing-bottom p{
+    color: #4242428e;
+}
+
+@media screen and (max-width: $large) {
+    .landing-profile img{
+        width: 450px;
+    }
+
+    .greetings h1{
+        font-size: 35px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-name h1{
+        font-size: 50px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-job h1{
+        font-size: 40px;
+        color: $light-blue;
+        margin: 1.5px;
+    }
+    
+    .landing-social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 30px;
+    }
+
+    .landing-social-media img{
+        width: 50px;
+    }
+
+    .landing-bottom p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: $large) {
+    .landing-profile img{
+        width: 400px;
+    }
+
+    .greetings h1{
+        font-size: 30px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-name h1{
+        font-size: 45px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-job h1{
+        font-size: 35px;
+        color: $light-blue;
+        margin: 1.5px;
+    }
+    
+    .landing-social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 20px;
+    }
+
+    .landing-social-media img{
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    .landing-container{
+        margin-top: 125px;
+    }
+
+    .landing-profile img{
+        width: 350px;
+    }
+
+    .greetings h1{
+        font-size: 25px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-name h1{
+        font-size: 35px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-job h1{
+        font-size: 30px;
+        color: $light-blue;
+        margin: 1.5px;
+    }
+    
+    .landing-social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+        margin-top: 20px;
+    }
+
+    .landing-social-media img{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: $smedium) {
+    .landing-container{
+        margin-top: 100px;
+    }
+
+    .landing-container .landing-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .landing-profile img{
+        width: 300px;
+    }
+
+    .greetings h1{
+        font-size: 20px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-name h1{
+        font-size: 30px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-job h1{
+        font-size: 25px;
+        color: $light-blue;
+        margin: 1.5px;
+    }
+    
+    .landing-social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 15px;
+    }
+
+    .landing-social-media img{
+        width: 30px;
+    }
+
+    .landing-bottom p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: $small) {
+    .landing-container{
+        margin-top: 75px;
+        gap: 2rem;
+    }
+
+    .landing-container .landing-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .landing-profile img{
+        width: 275px;
+    }
+
+    .greetings h1{
+        font-size: 17px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-name h1{
+        font-size: 27px;
+        color: $black;
+        margin: 1.5px;
+    }
+    
+    .landing-job h1{
+        font-size: 22px;
+        color: $light-blue;
+        margin: 1.5px;
+    }
+    
+    .landing-social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 13px;
+    }
+
+    .landing-social-media img{
+        width: 27px;
+    }
+
+    .landing-bottom p{
+        font-size: 12px;
+    }
+}

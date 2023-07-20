@@ -1,0 +1,102 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+.navbar {
+    top: 0;
+    position: relative;
+    display: flex;      
+    z-index: 100;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background-color: $white;
+    color: $black;
+    position: fixed;
+    width: 100%;
+    padding: 7px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 4px 5px #42424248;
+}
+
+.navbar-logo {
+    color: #fff;
+    font-size: 24px;
+}
+    
+.navbar-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 107px;
+    right: 20px;
+    background-color: $white;
+    width: 200px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+    
+.navbar-menu.active {
+    transform: translateX(0);
+}
+    
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+    
+.navbar-item {
+    color: $black;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+}
+
+a:hover{
+    color: $dark-blue;
+    transition: linear 0.3s;
+}
+    
+/* hamburger menu */
+.navbar-toggle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+}
+    
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color: $black;
+    margin: 5px 0;
+}
+    
+/* Media queries */
+@media screen and (min-width: 768px) {
+    /* Styles for tablets and larger screens */
+    .navbar-menu {
+        position: static;
+        width: auto;
+        transform: none;
+        transition: none;
+        flex-direction: row;
+    }
+    
+    .navbar-list {
+        flex-direction: row;
+    }
+    
+    .navbar-item {
+        padding: 10px 20px;
+    }
+    
+    .navbar-toggle {
+        display: none;
+    }
+}

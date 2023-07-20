@@ -1,0 +1,41 @@
+import React from "react";
+import "../../styles/section/_about.scss";
+import Jos from "../../assets/image/jos.svg";
+import AboutIcon from "../../assets/icon/About/about.svg"
+import Code from "../../assets/icon/About/code.svg"
+import Fan from "../../assets/icon/About/fan.svg"
+
+const About = () => {
+    return(
+        <section className="about-page">
+            <div className="about-container">
+                <div className="about-top">
+                    <div className="title">
+                        <img src={AboutIcon} alt="" />
+                        <h1>About Me</h1>
+                    </div>
+                    <div className="right">
+                        <img src={Fan} alt="" />
+                    </div>
+                </div>
+                <div className="about-mid">
+                    <div className="description">
+                        <p>
+                            Welcome to my Portofolio Website! My name is Joshua Jevon Irawan, and I am a passionate computer science student at Binus University. Throughout my academic journey and organizational experiences, I have developed a diverse skill set in various areas of computer science. I take pride in my ability to work effectively within a team and have earned a reputation for being a trustworthy and dependable individual. 
+                        </p>
+
+                        <p>
+                            Currently, I hold the position of Research and Development Staff at Bina Nusantara Computer Club, where I contribute as a Back-End developer. However, I eager to learn software engineering in general and other knowledge within the field of technology. Feel free to explore the projects I have worked on and the creations I have made.
+                        </p>
+                    </div>
+                    <img src={Jos} alt="" />
+                </div>
+                <div className="about-bottom">
+                    <img src={Code} alt="" />
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default About;

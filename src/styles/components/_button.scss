@@ -1,0 +1,84 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+button{
+    padding: 13px 30px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight:700;
+    color: $white-snow;
+    background-color: $light-blue;
+    box-shadow: 0px 4px 4px #42424248;
+    transition: all 0.2s;
+    transform: translateX(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button:hover{
+    background-color: $dark-blue;
+    transform: translateX(5px);
+}
+
+img {
+    margin-left: 16px;
+}
+
+@media screen and (max-width: $large) {
+    button{
+        padding: 13px 30px;
+        font-size: 28px;
+    }
+
+    img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: $slarge) {
+    button{
+        padding: 13px 30px;
+        font-size: 26px;
+    }
+
+    img {
+        width: 23px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    button{
+        padding: 13px 30px;
+        font-size: 24px;
+    }
+
+    img {
+        width: 22px;
+    }
+}
+
+@media screen and (max-width: $smedium) {
+    button{
+        padding: 13px 30px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: $small) {
+    button{
+        padding: 11px 22px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+
+    img {
+        width: 17px;
+    }
+}
