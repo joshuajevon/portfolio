@@ -26,11 +26,21 @@
     flex-direction: column;
     overflow: hidden;
     gap: 5rem;
+    white-space: nowrap;
+}
+
+.slide-container img{
+    filter: grayscale(100%); /* Set the images to appear black and white by default */
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+}
+
+.slide-container img:hover{
+    filter: grayscale(0%); 
 }
 
 .slide-show1{
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     gap: 3rem;
     width: 100%;
     animation: slideRight 35s linear infinite;
@@ -50,7 +60,7 @@
 
 @keyframes slideLeft {
     0% {
-      transform: translateX(100%);
+      transform: translateX(105%);
     }
     100% {
       transform: translateX(-150%);
@@ -215,13 +225,13 @@
           transform: translateX(105%);
         }
         100% {
-          transform: translateX(-300%);
+          transform: translateX(-305%);
         }
       }
     
     @keyframes slideRight {
         0% {
-          transform: translateX(-300%);
+          transform: translateX(-310%);
         }
         100% {
           transform: translateX(100%);

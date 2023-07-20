@@ -37,6 +37,17 @@ const Skills = () => {
                         <img src={React1} alt="React" />
                         <img src={Laravel} alt="Laravel" />
                     </div>
+                    {/* <div className="slide-show1">
+                        <img src={Bootstrap} alt="Bootstrap" />
+                        <img src={Typescript} alt="Typescript" />
+                        <img src={NodeJS} alt="NodeJS" />
+                        <img src={js} alt="js" />
+                        <img src={CSS} alt="CSS" />
+                        <img src={HTML} alt="HTML" />
+                        <img src={React1} alt="React" />
+                        <img src={Laravel} alt="Laravel" />
+                    </div> */}
+
                     <div className="slide-show2">
                         <img src={Github} alt="Github" />
                         <img src={GitVCS} alt="GitVCS" />
