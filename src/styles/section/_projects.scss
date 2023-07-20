@@ -1,0 +1,141 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+
+.projects-container{
+    padding-bottom: 100px;
+    background-color: $light-blue;
+}
+
+.projects-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.projects-title h1{
+    color: $white;
+    font-size: 64px;
+}
+
+.projects-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects-row{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.projects-row  img{
+    margin: 0;
+    transition: all 0.2s;
+    transform: translateY(0);
+}
+
+.projects-row .card-image img:hover{
+    transform: translateY(5px) ;
+}
+
+@media screen and (max-width: $large) {
+    .projects-title h1{
+        font-size: 50px;
+    }
+    
+    .projects-title img{
+        width: 50px;
+    }
+
+    .projects-row .card-image img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: $slarge) {
+    .projects-title h1{
+        font-size: 46px;
+    }
+    
+    .projects-title img{
+        width: 46px;
+    }
+
+    .projects-row .card-image img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    .projects-title h1{
+        font-size: 42px;
+    }
+    
+    .projects-title img{
+        width: 42px;
+    }
+
+    .projects-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-row .card-image img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: $bsmall) {
+
+    .projects-title{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .projects-title h1{
+        font-size: 32px;
+    }
+    
+    .projects-title img{
+        width: 32px;
+    }
+
+    .projects-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-row .card-image img{
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: $small) {
+
+    .projects-title{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .projects-title h1{
+        font-size: 26px;
+    }
+    
+    .projects-title img{
+        width: 26px;
+    }
+
+    .projects-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-row .card-image img{
+        width: 30px;
+    }
+}
