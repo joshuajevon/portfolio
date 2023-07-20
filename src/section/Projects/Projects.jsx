@@ -147,7 +147,7 @@ const Projects = () => {
                                 </div>
                             ]}  >
                                 <Meta
-                                    title="asetaset.com"
+                                    title="Jetpacker 2099"
                                     description="Casual game with a One-Tap Gameplay or Single-Button Gameplay system"
                                     />
                         </Card>
