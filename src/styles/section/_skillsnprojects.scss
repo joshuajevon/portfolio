@@ -1,0 +1,56 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+.container{
+    background-image: url('../../assets/image/skillsnprojects.svg');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24vw;
+    font-size: 64px;
+    margin: 0;
+}
+
+.container h1{
+    font-size: 64px;
+}
+
+@media screen and (max-width: $large) {
+    .container h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: $slarge) {
+    .container h1{
+        font-size: 46px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    .container h1{
+        font-size: 42px;
+    }
+}
+
+@media screen and (max-width: $smedium) {
+    .container h1{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: $bsmall) {
+    .container h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: $small) {
+    .container h1{
+        font-size: 22px;
+    }
+}
