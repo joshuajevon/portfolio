@@ -19,13 +19,17 @@ body{
 .about-container .about-top{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .about-top .title{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.about-top .right img{
+    margin: 0;
 }
 
 .title h1{
