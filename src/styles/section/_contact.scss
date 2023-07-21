@@ -199,6 +199,9 @@ body{
 }
 
 @media screen and (max-width: $bsmall) {
+    .contact-container{
+        height: 1000px;
+    }
     .contact-title h1{
         font-size: 26px;
     }
