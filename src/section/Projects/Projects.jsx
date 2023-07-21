@@ -24,7 +24,7 @@ const Projects = () => {
                 <div className="projects-content">
                     
                     <div className="projects-row">
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                     <img style={{ width:'350px', marginLeft:'0.5px' }}
@@ -61,7 +61,7 @@ const Projects = () => {
                                     </div>
                             </Card>
                         </Fade>
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -100,7 +100,7 @@ const Projects = () => {
                         </Fade>
                     </div>
                     <div className="projects-row">
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -134,7 +134,7 @@ const Projects = () => {
                                     </div>
                             </Card>
                         </Fade>
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -173,7 +173,7 @@ const Projects = () => {
                         </Fade>
                     </div>
                     <div className="projects-row">
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -207,7 +207,7 @@ const Projects = () => {
                                     </div>
                             </Card>
                         </Fade>
-                        <Fade top>
+                        <Fade bottom>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
