@@ -7,6 +7,7 @@ import SkillsnProjects from "../section/SkillsnProjects/SkillsnProjects.jsx";
 import Skills from "../section/Skills/Skills.jsx";
 import Projects from "../section/Projects/Projects.jsx";
 import Contact from "../section/Contact/Contact.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 
 import "../styles/color/_colors.scss";
 
@@ -20,6 +21,7 @@ function Portfolio(){
             <Skills/>
             <Projects/>
             <Contact/>
+            <Footer/>
         </div>
     );
 }
