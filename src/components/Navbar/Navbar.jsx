@@ -4,7 +4,28 @@ import Logo from "../../assets/icon/logo.svg";
 import { Link } from 'react-scroll';
 
 class Navbar extends Component{
-    state={clicked: false};
+    state = { clicked: false, prevScrollY: 0, isHidden: false, isSlidingIn: true };
+
+    componentDidMount() {
+      window.addEventListener('scroll', this.handleScroll);
+    }
+
+    componentWillUnmount() {
+      window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll = () => {
+      const { prevScrollY, isSlidingIn } = this.state;
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > prevScrollY) {
+        this.setState({ isHidden: true, isSlidingIn: false });
+      } else {
+        this.setState({ isHidden: false, isSlidingIn: true });
+      }
+
+      this.setState({ prevScrollY: currentScrollY });
+    };  
 
     handleClick = () => {
       this.setState({clicked: !this.state.clicked})
@@ -15,11 +36,11 @@ class Navbar extends Component{
     };
 
     render(){
-      const { clicked } = this.state;
+      const { clicked, isHidden, isSlidingIn } = this.state;
       const iconClass = clicked ? 'times' : 'bars';
 
       return (
-        <nav>
+        <nav className={`${isHidden ? 'hidden' : ''} ${isSlidingIn ? 'sliding-in' : ''}`}>
           <a href="/">
             <img src={Logo} alt="" />
           </a>
@@ -34,28 +55,28 @@ class Navbar extends Component{
               </li>
               <li>
                 <a href="">
-                  <Link to="about" spy={true} smooth={true} offset={-50} duration={500} onClick={this.handleMenuItemClick}>
+                  <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={this.handleMenuItemClick}>
                     About
                   </Link> 
                 </a>
               </li>
               <li>
                 <a href="">
-                  <Link to="skills" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleMenuItemClick}>
+                  <Link to="skills" spy={true} smooth={true} offset={-50} duration={500} onClick={this.handleMenuItemClick}>
                     Skills
                   </Link> 
                 </a>
               </li>
               <li>
                 <a href="">
-                  <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleMenuItemClick}>
+                  <Link to="projects" spy={true} smooth={true} offset={-50} duration={500} onClick={this.handleMenuItemClick}>
                     Projects
                   </Link> 
                 </a>
               </li>
               <li>
                 <a href="">
-                  <Link to="contact" spy={true} smooth={true} offset={-50} duration={500} onClick={this.handleMenuItemClick}>
+                  <Link to="contact" spy={true} smooth={true} offset={50} duration={500} onClick={this.handleMenuItemClick}>
                     Contact
                   </Link> 
                 </a>
