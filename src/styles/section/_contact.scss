@@ -10,7 +10,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 1100px;
 }
 
 .contact-container .contact-title{
@@ -209,6 +209,10 @@ body{
 }
 
 @media screen and (max-width: $small) {
+    .contact-container{
+        height: 900px;
+    }
+
     .contact-card .contact-left{
         padding: 30px 20px;
     }
