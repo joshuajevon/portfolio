@@ -10,7 +10,7 @@ import Submit from '../../assets/icon/Contact/Submit.svg'
 
 const Contact = () => {
   return(
-    <section className="contact">
+    <section className="contact" id="contact">
       <div className="contact-container">
         <div className="contact-title">
           <img src={contactIcon} alt="" />

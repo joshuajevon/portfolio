@@ -3,7 +3,7 @@ import "../../styles/section/_skillsnprojects.scss";
 
 const SkillsnProjects = () => {
     return(
-        <section className="skillsnproject">
+        <section className="skillsnproject" >
             <div className="container">
                 <h1>Skills & Projects</h1>
             </div>

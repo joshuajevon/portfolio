@@ -20,7 +20,7 @@ import GitVCS from "../../assets/icon/Skills/gitvcs.svg"
 
 const Skills = () => {
     return (
-        <section className="skills">
+        <section  id="skills">
             <div className="skills-container">
                 <div className="skills-title">
                     <img src={skillsIcon} alt="" />
@@ -37,16 +37,6 @@ const Skills = () => {
                         <img src={React1} alt="React" />
                         <img src={Laravel} alt="Laravel" />
                     </div>
-                    {/* <div className="slide-show1">
-                        <img src={Bootstrap} alt="Bootstrap" />
-                        <img src={Typescript} alt="Typescript" />
-                        <img src={NodeJS} alt="NodeJS" />
-                        <img src={js} alt="js" />
-                        <img src={CSS} alt="CSS" />
-                        <img src={HTML} alt="HTML" />
-                        <img src={React1} alt="React" />
-                        <img src={Laravel} alt="Laravel" />
-                    </div> */}
 
                     <div className="slide-show2">
                         <img src={Github} alt="Github" />

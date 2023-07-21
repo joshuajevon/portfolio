@@ -14,7 +14,7 @@ import { Card } from 'antd';
 const { Meta } = Card;
 const Projects = () => {
     return(
-        <section className="projects">
+        <section className="projects" id="projects">
             <div className="projects-container">
                 <div className="projects-title">
                     <img src={ProjectsIcon} alt="" />

@@ -5,10 +5,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: $white;
+    background-color: #ffffffd8;
     padding: 10px 50px;
-    box-shadow: 0px 4px 5px #42424248;
-    z-index: 5;
+    box-shadow: 0px 4px 4px #4242422e;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 #navbar{
@@ -58,6 +60,7 @@ nav{
     color: $black;
 }
 
+
 @media screen and (max-width: $medium) {
     #navbar{
         display: flex;
@@ -70,7 +73,7 @@ nav{
         width: 300px;
         height: 100vh;
         background-color: #ffffffd8;
-        z-index: 5;
+        z-index: 10;
         box-shadow: 0px 4px 4px 0px #00000048;
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
@@ -92,11 +95,20 @@ nav{
         font-size: 20px;
         cursor: pointer;
     }
+
+    
+}
+
+@media screen and (max-width: $smedium) {
+    #navbar{
+        top: 58px;
+    }
 }
 
 @media screen and (max-width: $bsmall) {
     #navbar{
         width: 200px;
+        top: 58px;
     }
 
     #navbar li a{
@@ -106,7 +118,7 @@ nav{
 
 @media screen and (max-width: $small) {
     #navbar{
-        top:57px;
+        top:53px;
     }
 
 }

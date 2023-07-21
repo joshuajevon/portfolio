@@ -13,7 +13,7 @@ import ParticlesBackground from '../../components/Particles/ParticleBackground';
 
 const Landing = () => {
     return (
-        <section className="landing-page">
+        <section className="landing-page" id='landing'>
             <div className="landing-background">
                 <ParticlesBackground/>
             </div>
