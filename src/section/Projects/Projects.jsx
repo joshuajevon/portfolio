@@ -21,14 +21,14 @@ const Projects = () => {
                     <h1>My Projects</h1>
                 </div>
                 <div className="projects-content">
-
+                    
                     <div className="projects-row">
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
-                                alt="Technoscape"
-                                src={Technoscape}
-                            />
+                                <img style={{ width:'350px', marginLeft:'0.5px' }}
+                                    alt="Technoscape"
+                                    src={Technoscape}
+                                />
                             }
                             actions={[
                                 <div className="card-image">
@@ -45,12 +45,23 @@ const Projects = () => {
                                 <Meta
                                     title="Technoscape 2023"
                                     description="The biggest event hosted by Bina Nusantara Computer Club (BNCC)"
-                                    />
+                                />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        Laravel
+                                    </div>
+                                    <div className="list-tech">
+                                        PhP
+                                    </div>
+                                    <div className="list-tech">
+                                        API
+                                    </div>
+                                </div>
                         </Card>
 
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
+                            <img style={{ width:'350px', marginLeft:'0.2px' }}
                                 alt="Leap"
                                 src={Leap}
                             />
@@ -69,15 +80,26 @@ const Projects = () => {
                             ]}  >
                                 <Meta
                                     title="LEAP 2.1"
-                                    description="Learning Management System owned by BNCC that supports the Learning and Training course"
+                                    description="Learning Management System owned by BNCC that supports the LnT course"
                                     />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        Laravel
+                                    </div>
+                                    <div className="list-tech">
+                                        PhP
+                                    </div>
+                                    <div className="list-tech">
+                                        API
+                                    </div>
+                                </div>
                         </Card>
                     </div>
 
                     <div className="projects-row">
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
+                            <img style={{ width:'350px', marginLeft:'0.2px' }}
                                 alt="AsetAset"
                                 src={AsetAset}
                             />
@@ -96,13 +118,21 @@ const Projects = () => {
                             ]}  >
                                 <Meta
                                     title="asetaset.com"
-                                    description="An innovative online solution to facilitate access and transparency in searching for assets "
+                                    description="An innovative solution to facilitate access and transparency in searching for assets "
                                     />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        Laravel
+                                    </div>
+                                    <div className="list-tech">
+                                        PhP
+                                    </div>
+                                </div>
                         </Card>
 
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
+                            <img style={{ width:'350px', marginLeft:'0.2px' }}
                                 alt="Technotic"
                                 src={Technotic}
                             />
@@ -123,13 +153,24 @@ const Projects = () => {
                                     title="Technotic Design System and Docs"
                                     description="Design smarter, not harder with Technotics powerful design system"
                                     />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        Node
+                                    </div>
+                                    <div className="list-tech">
+                                        React
+                                    </div>
+                                    <div className="list-tech">
+                                        Typescript
+                                    </div>
+                                </div>
                         </Card>
                     </div>
 
                     <div className="projects-row">
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
+                            <img style={{ width:'350px', marginLeft:'0.2px' }}
                                 alt="Jetpacker"
                                 src={Jetpacker}
                             />
@@ -150,11 +191,19 @@ const Projects = () => {
                                     title="Jetpacker 2099"
                                     description="Casual game with a One-Tap Gameplay or Single-Button Gameplay system"
                                     />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        C#
+                                    </div>
+                                    <div className="list-tech">
+                                        Unity
+                                    </div>
+                                </div>
                         </Card>
 
-                        <Card style={{ width: '350px',  fontFamily: 'Poppins', boxShadow: '0px 4px 4px #0000005c' }}
+                        <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                             cover={
-                            <img style={{ width:'350px' }}
+                            <img style={{ width:'350px', marginLeft:'0.2px' }}
                                 alt="BidWBuy"
                                 src={BidWBuy}
                             />
@@ -175,6 +224,14 @@ const Projects = () => {
                                     title="BidWBuy"
                                     description="Website for purchasing both antique and standard watches at affordable prices"
                                     />
+                                <div className="tech">
+                                    <div className="list-tech">
+                                        Laravel
+                                    </div>
+                                    <div className="list-tech">
+                                        PhP
+                                    </div>
+                                </div>
                         </Card>
                     </div>
 

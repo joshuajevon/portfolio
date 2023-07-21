@@ -13,6 +13,7 @@
     justify-content: flex-start;
     padding-left: 50px;
     padding-right: 50px;
+    gap: 1rem;
 }
 
 .projects-title h1{
@@ -41,6 +42,29 @@
 
 .projects-row .card-image img:hover{
     transform: translateY(5px) ;
+}
+
+.tech{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.7rem;
+}
+
+.tech .list-tech{
+    padding: 1px 15px;
+    border-radius: 10px;
+    color: $black;
+    border: $black 1px solid;
+    transition: linear 0.2s;
+}
+
+.tech .list-tech:hover{
+    background-color: $light-blue;
+    padding: 1px 15px;
+    border-radius: 10px;
+    color: $white-main;
+    border: $white-main 1px solid;
 }
 
 @media screen and (max-width: $large) {
