@@ -9,7 +9,7 @@ import Jetpacker from '../../assets/image/jetpacker.png'
 import AsetAset from '../../assets/image/asetaset.png'
 import BidWBuy from '../../assets/image/bidwbuy.png'
 import Leap from '../../assets/image/leap.png'
-import {Flip} from 'react-reveal'
+import {Fade} from 'react-reveal'
 
 import { Card } from 'antd';
 const { Meta } = Card;
@@ -24,7 +24,7 @@ const Projects = () => {
                 <div className="projects-content">
                     
                     <div className="projects-row">
-                        <Flip top>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                     <img style={{ width:'350px', marginLeft:'0.5px' }}
@@ -60,8 +60,8 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
-                        <Flip top>
+                        </Fade>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -97,10 +97,10 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
+                        </Fade>
                     </div>
                     <div className="projects-row">
-                        <Flip top>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -133,8 +133,8 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
-                        <Flip top>
+                        </Fade>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -170,10 +170,10 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
+                        </Fade>
                     </div>
                     <div className="projects-row">
-                        <Flip top>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -206,8 +206,8 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
-                        <Flip top>
+                        </Fade>
+                        <Fade top>
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
@@ -240,7 +240,7 @@ const Projects = () => {
                                         </div>
                                     </div>
                             </Card>
-                        </Flip>
+                        </Fade>
                     </div>
                 </div>
             </div>
