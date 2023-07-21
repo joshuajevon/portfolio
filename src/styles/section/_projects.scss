@@ -13,6 +13,7 @@
     justify-content: flex-start;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 60px;
     gap: 1rem;
 }
 
@@ -67,6 +68,17 @@
     border: $white-main 1px solid;
 }
 
+// @media screen and (max-width: $extra) {
+
+//     .projects-title h1{
+//         font-size: 48px;
+//     }
+//     .projects-title img{
+//         width: 48px;
+//     }
+  
+//   }
+
 @media screen and (max-width: $large) {
     .projects-title h1{
         font-size: 50px;
@@ -113,7 +125,16 @@
         width: 30px;
     }
 }
-
+@media screen and (max-width: $smedium) {
+    .projects-title h1{
+      font-size: 36px;
+    }
+  
+    .projects-title img{
+      width: 36px;  
+    }
+  
+  }
 @media screen and (max-width: $bsmall) {
 
     .projects-title{
@@ -122,12 +143,12 @@
     }
 
     .projects-title h1{
-        font-size: 32px;
-    }
+        font-size: 26px;
+      }
     
-    .projects-title img{
-        width: 32px;
-    }
+      .projects-title img{
+        width: 26px;  
+      }
 
     .projects-row{
         display: flex;
@@ -141,17 +162,21 @@
 
 @media screen and (max-width: $small) {
 
+    .contact-container{
+        height: 100vh;
+    }
+
     .projects-title{
         padding-left: 30px;
         padding-right: 30px;
     }
 
     .projects-title h1{
-        font-size: 26px;
+        font-size: 22px;
     }
     
     .projects-title img{
-        width: 26px;
+        width: 22px;
     }
 
     .projects-row{

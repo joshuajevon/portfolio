@@ -13,6 +13,7 @@
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 60px;
     gap: 1rem;
 }
 
@@ -76,6 +77,17 @@
     }
 }
 
+// @media screen and (max-width: $extra) {
+
+//   .skills-title h1{
+//       font-size: 48px;
+//   }
+//   .skills-title img{
+//       width: 48px;
+//   }
+
+// }
+
 @media screen and (max-width: $large) {
     .skills-title h1{
         font-size: 50px;
@@ -108,6 +120,8 @@
     }
 
 }
+
+
 
 @media screen and (max-width: $slarge) {
     .skills-container{
@@ -151,29 +165,30 @@
 
 }
 
+
 @media screen and (max-width: $medium) {
     .skills-container{
-        background-color: $light-blue;
-        padding-bottom: 50px;
+      background-color: $light-blue;
+      padding-bottom: 50px;
     }
-
+    
     .slide-container {
         gap: 3rem;
     }
 
     .skills-title h1{
-        font-size: 42px;
+      font-size: 42px;
     }
-
+    
     .skills-title img{
-        width: 42px;
+      width: 42px;
     }
-
+    
     .slide-show1 img, .slide-show2 img{
         width: 130px;
-    }
-
-    @keyframes slideLeft {
+      }
+      
+      @keyframes slideLeft {
         0% {
           transform: translateX(100%);
         }
@@ -182,38 +197,47 @@
         }
       }
     
-    @keyframes slideRight {
+      @keyframes slideRight {
         0% {
           transform: translateX(-200%);
         }
         100% {
           transform: translateX(100%);
         }
+      }
     }
-}
-
-@media screen and (max-width: $bsmall) {    
-
-    .skills-title{
+    @media screen and (max-width: $smedium) {
+      .skills-title h1{
+        font-size: 36px;
+      }
+    
+      .skills-title img{
+        width: 36px;  
+      }
+    
+    }
+    
+    @media screen and (max-width: $bsmall) {    
+      .skills-title{
         padding-left: 30px;
         padding-right: 30px;
-    }
+      }
 
-    .skills-container{
+      .skills-title h1{
+        font-size: 26px;
+      }
+    
+      .skills-title img{
+        width: 26px;  
+      }
+      
+      .skills-container{
         background-color: $light-blue;
         padding-bottom: 50px;
-    }
-
-    .slide-container {
+      }
+      
+      .slide-container {
         gap: 2rem;
-    }
-
-    .skills-title h1{
-        font-size: 32px;
-    }
-
-    .skills-title img{
-        width: 32px;
     }
 
     .slide-show1 img, .slide-show2 img{
@@ -241,11 +265,11 @@
 
 @media screen and (max-width: $small) {  
     .skills-title h1{
-        font-size: 26px;
+        font-size: 22px;
     }
 
     .skills-title img{
-        width: 26px;
+        width: 22px;
     }
 
     @keyframes slideLeft {

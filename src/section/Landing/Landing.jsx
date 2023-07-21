@@ -8,6 +8,7 @@ import Linkedin from "../../assets/icon/Landing/linkedin.svg"
 import Twitter from "../../assets/icon/Landing/twitter.svg"
 import Button from "../../components/Button/Button.jsx"
 import Typed from 'react-typed'
+import cv from '../../assets/icon/Landing/cv.svg'
 import ParticlesBackground from '../../components/Particles/ParticleBackground';
 
 const Landing = () => {
@@ -69,7 +70,7 @@ const Landing = () => {
                     </div>
                 </div>
                 <div className="landing-bottom">
-                    <Button text="See My CV" link="https://www.google.com"/>
+                    <Button image={cv} text="See My CV" link="https://www.google.com"/>
                     <p>For more details, please <br/> visit my linkedin...</p>
                 </div>
             </div>  

@@ -1,13 +1,12 @@
 import React from "react";
 import '../../styles/components/_button.scss'
-import cv from '../../assets/icon/Landing/cv.svg'
 
-const Button = ({text, link}) => {
+const Button = ({text, link, image}) => {
     return (
             <a href={link}>
                 <button>
                     {text}
-                <img src={cv} alt="CV" className="icon"/>
+                    {image && <img src={image} alt="" className="icon" />}
                 </button>
             </a>
     );

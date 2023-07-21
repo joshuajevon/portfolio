@@ -93,7 +93,7 @@ body{
 @media screen and (max-width: $extra) {
     
     .title h1{
-        font-size: 48px;
+        font-size: 64px;
     }
     
     .title img{
@@ -125,7 +125,7 @@ body{
 @media screen and (max-width: $large) {
     
     .title h1{
-        font-size: 48px;
+        font-size: 50px;
     }
     
     .title img{
@@ -154,13 +154,24 @@ body{
     }
 }
 
-@media screen and (max-width: $medium) {
+@media screen and (max-width: $slarge) {
+    
     .title h1{
-        font-size: 44px;
+        font-size: 46px;
     }
     
     .title img{
-        width: 65px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: $medium) {
+    .title h1{
+        font-size: 42px;
+    }
+    
+    .title img{
+        width: 55px;
     }
     
     .right img{
@@ -183,7 +194,7 @@ body{
 
 @media screen and (max-width: $smedium) {
     .title h1{
-        font-size: 33px;
+        font-size: 36px;
     }
     
     .title img{
@@ -230,7 +241,7 @@ body{
 
 @media screen and (max-width: $small) {
     .title h1{
-        font-size: 23px;
+        font-size: 22px;
     }
     
     .title img{
