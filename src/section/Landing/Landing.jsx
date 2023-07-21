@@ -10,6 +10,7 @@ import Button from "../../components/Button/Button.jsx"
 import Typed from 'react-typed'
 import cv from '../../assets/icon/Landing/cv.svg'
 import ParticlesBackground from '../../components/Particles/ParticleBackground';
+import { Fade, Bounce } from 'react-reveal';
 
 const Landing = () => {
     return (
@@ -19,9 +20,11 @@ const Landing = () => {
             </div>
             <div className="landing-container">
                 <div className="landing-top">
-                    <div className="landing-profile">
-                        <img src={Profile} alt="" />
-                    </div>
+                    <Bounce top>
+                        <div className="landing-profile">
+                            <img src={Profile} alt="" />
+                        </div>
+                    </Bounce>
                     <div className="landing-decription">
                         <div className="greetings">
                             <h1>
@@ -69,10 +72,12 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div className="landing-bottom">
-                    <Button image={cv} text="See My CV" link="https://www.google.com"/>
-                    <p>For more details, please <br/> visit my linkedin...</p>
-                </div>
+                <Fade bottom top-distance="10%">
+                    <div className="landing-bottom">
+                        <Button image={cv} text="See My CV" link="https://www.google.com"/>
+                        <p>For more details, please <br/> visit my linkedin...</p>
+                    </div>
+                </Fade>
             </div>  
         </section>
     );
