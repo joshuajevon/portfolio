@@ -1,14 +1,6 @@
 @import '/src/styles/color/colors';
 @import '/src/styles/responsive/responsive';
 
-
-.projects-container{
-    padding-bottom: 100px;
-    background: url('../../assets//image/Background-Project.png');
-    background-color: $light-blue;
-    background-size: cover;
-}
-
 .projects-title{
     display: flex;
     flex-direction: row;
@@ -16,6 +8,8 @@
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 60px;
+    background-color: $light-blue;
+
     gap: 1rem;
 }
 
@@ -28,6 +22,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 100px;
+    background: url('../../assets//image/Background-Project.png');
+    background-color: $light-blue;
+    background-size: cover;
     gap: 4rem;
 }
 
@@ -112,7 +110,7 @@
 
 @media screen and (max-width: $medium) {
 
-    .projects-container{
+    .projects-content{
         background: url('../../assets//image/Background-Project-Mobile.png');
         background-color: $light-blue;
         background-size: cover;
