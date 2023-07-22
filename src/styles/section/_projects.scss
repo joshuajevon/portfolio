@@ -4,7 +4,9 @@
 
 .projects-container{
     padding-bottom: 100px;
+    background: url('../../assets//image/Background-Project.png');
     background-color: $light-blue;
+    background-size: cover;
 }
 
 .projects-title{
@@ -91,6 +93,7 @@
     .projects-row .card-image img{
         width: 30px;
     }
+    
 }
 
 @media screen and (max-width: $slarge) {
@@ -108,6 +111,13 @@
 }
 
 @media screen and (max-width: $medium) {
+
+    .projects-container{
+        background: url('../../assets//image/Background-Project-Mobile.png');
+        background-color: $light-blue;
+        background-size: cover;
+    }
+
     .projects-title h1{
         font-size: 42px;
     }
