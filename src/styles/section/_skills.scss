@@ -31,8 +31,8 @@
 }
 
 .slide-container img{
-    filter: grayscale(100%); /* Set the images to appear black and white by default */
-    transition: filter 0.3s ease; /* Add a smooth transition effect */
+    filter: grayscale(100%); 
+    transition: filter 0.3s ease; 
 }
 
 .slide-container img:hover{
@@ -77,17 +77,6 @@
     }
 }
 
-// @media screen and (max-width: $extra) {
-
-//   .skills-title h1{
-//       font-size: 48px;
-//   }
-//   .skills-title img{
-//       width: 48px;
-//   }
-
-// }
-
 @media screen and (max-width: $large) {
     .skills-title h1{
         font-size: 50px;
@@ -120,8 +109,6 @@
     }
 
 }
-
-
 
 @media screen and (max-width: $slarge) {
     .skills-container{
@@ -164,7 +151,6 @@
     }
 
 }
-
 
 @media screen and (max-width: $medium) {
     .skills-container{
