@@ -18,7 +18,7 @@
     "react-tsparticles": "^2.11.0",
     "react-typed": "^1.2.0",
     "sass": "^1.63.6",
-    "technotic": "^0.31.7",
+    "technotic": "^0.32.0",
     "tsparticles-slim": "^2.11.0",
     "web-vitals": "^2.1.4"
   },
