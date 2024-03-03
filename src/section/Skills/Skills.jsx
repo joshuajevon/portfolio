@@ -17,6 +17,8 @@ import Bootstrap from "../../assets/icon/Skills/bootstrap.svg"
 import Php from "../../assets/icon/Skills/php.svg"
 import C from "../../assets/icon/Skills/c.svg"
 import GitVCS from "../../assets/icon/Skills/gitvcs.svg"
+import Spring from "../../assets/icon/Skills/spring.svg"
+import Api from "../../assets/icon/Skills/api.svg"
 
 const Skills = () => {
     return (
@@ -28,19 +30,21 @@ const Skills = () => {
                 </div>
                 <div className="slide-container">    
                     <div className="slide-show1">
-                        <img src={Bootstrap} alt="Bootstrap" />
-                        <img src={Typescript} alt="Typescript" />
-                        <img src={NodeJS} alt="NodeJS" />
+                        {/* <img src={Bootstrap} alt="Bootstrap" /> */}
                         <img src={js} alt="js" />
                         <img src={CSS} alt="CSS" />
                         <img src={HTML} alt="HTML" />
+                        <img src={Typescript} alt="Typescript" />
+                        <img src={NodeJS} alt="NodeJS" />
                         <img src={React1} alt="React" />
+                        <img src={Api} alt="Api" />
                         <img src={Laravel} alt="Laravel" />
                     </div>
 
                     <div className="slide-show2">
+                        <img src={Spring} alt="Spring" />
                         <img src={Github} alt="Github" />
-                        <img src={GitVCS} alt="GitVCS" />
+                        {/* <img src={GitVCS} alt="GitVCS" /> */}
                         <img src={Asp} alt="Asp" />
                         <img src={Java} alt="Java" />
                         <img src={Php} alt="Php" />

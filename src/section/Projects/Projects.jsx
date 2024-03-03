@@ -7,7 +7,9 @@ import Technoscape from '../../assets/image/technoscape.png'
 import Technotic from '../../assets/image/technotic.png'
 import Jetpacker from '../../assets/image/jetpacker.png'
 import AsetAset from '../../assets/image/asetaset.png'
-import BidWBuy from '../../assets/image/bidwbuy.png'
+import Takurui from '../../assets/image/takurui.png'
+import Plb from '../../assets/image/plb.png'
+import Rcplaw from '../../assets/image/rcplaw.png'
 import Leap from '../../assets/image/leap.png'
 import {Fade} from 'react-reveal'
 
@@ -177,16 +179,89 @@ const Projects = () => {
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
+                                    alt="RCPLAw"
+                                    src={Rcplaw}
+                                />
+                                }
+                                actions={[
+                                    <div className="card-image">
+                                        <a target="__blank" href="https://rcplaw.id/">
+                                            <img src={ViewIcon} alt="" />
+                                        </a>
+                                    </div>,
+                                    <div className="card-image">
+                                        <a target="__blank" href="https://github.com/joshuajevon/rcplaw">
+                                            <img src={GithubIcon} alt="" />
+                                        </a>
+                                    </div>
+                                ]}  >
+                                    <Meta
+                                        title="RC Plaw"
+                                        description="A full-service law firm has provided high-standard legal services with over a decade of experience."
+                                        />
+                                    <div className="tech">
+                                        <div className="list-tech">
+                                            Laravel
+                                        </div>
+                                        <div className="list-tech">
+                                            PhP
+                                        </div>
+                                    </div>
+                            </Card>
+                        </Fade>
+                        <Fade bottom>
+                            <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
+                                cover={
+                                <img style={{ width:'350px', marginLeft:'0.2px' }}
+                                    alt="PLB"
+                                    src={Plb}
+                                />
+                                }
+                                actions={[
+                                    <div className="card-image">
+                                        <a target="__blank" href="https://prestigeluxbags.com/">
+                                            <img src={ViewIcon} alt="" />
+                                        </a>
+                                    </div>,
+                                    // <div className="card-image">
+                                    //     <a target="__blank" href="https://github.com/joshuajevon/rcplaw">
+                                    //         <img src={GithubIcon} alt="" />
+                                    //     </a>
+                                    // </div>
+                                ]}  >
+                                    <Meta
+                                        title="Prestige Lux Bags"
+                                        description="A quick, easy, and hassle-free platform to buy or sell your pre-loved luxury fashion items."
+                                        />
+                                    <div className="tech">
+                                        <div className="list-tech">
+                                            Wordpress
+                                        </div>
+                                        <div className="list-tech">
+                                            HTML
+                                        </div>
+                                        <div className="list-tech">
+                                            CSS
+                                        </div>
+                                    </div>
+                            </Card>
+                        </Fade>
+                    </div>
+                    <div className="projects-row">
+                        <Fade bottom>
+                            <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
+                                cover={
+                                <img style={{ width:'350px', marginLeft:'0.2px' }}
                                     alt="Jetpacker"
                                     src={Jetpacker}
                                 />
                                 }
                                 actions={[
-                                    <div className="card-image">
-                                        <a target="__blank" href="https://play.google.com/store/apps/details?id=com.aabversion.Jetpacker2099">
-                                            <img src={ViewIcon} alt="" />
-                                        </a>
-                                    </div>,
+                                    // <div className="card-image">
+                                    //     <a target="__blank" href="https://play.google.com/store/apps/details?id=com.aabversion.Jetpacker2099">
+                                    //         <img src={ViewIcon} alt="" />
+                                    //     </a>
+                                    // </div>,
                                     <div className="card-image">
                                         <a target="__blank" href="https://github.com/joshuajevon/Jetpacker-2099">
                                             <img src={GithubIcon} alt="" />
@@ -211,8 +286,8 @@ const Projects = () => {
                             <Card hoverable style={{ width: '350px',  fontFamily: 'Poppins'}}
                                 cover={
                                 <img style={{ width:'350px', marginLeft:'0.2px' }}
-                                    alt="BidWBuy"
-                                    src={BidWBuy}
+                                    alt="Takurui"
+                                    src={Takurui}
                                 />
                                 }
                                 actions={[
@@ -222,14 +297,14 @@ const Projects = () => {
                                     //     </a>
                                     // </div>,
                                     <div className="card-image">
-                                        <a target="__blank" href="https://github.com/joshuajevon/BidWBuy">
+                                        <a target="__blank" href="https://github.com/joshuajevon/Takurui">
                                             <img src={GithubIcon} alt="" />
                                         </a>
                                     </div>
                                 ]}  >
                                     <Meta
-                                        title="BidWBuy"
-                                        description="Website for purchasing both antique and standard watches at affordable prices"
+                                        title="Takurui"
+                                        description="An exclusive online anime shopping clothes platform for anime enthusiasts."
                                         />
                                     <div className="tech">
                                         <div className="list-tech">
@@ -242,6 +317,7 @@ const Projects = () => {
                             </Card>
                         </Fade>
                     </div>
+                    
                 </div>
             </div>
         </section>
