@@ -1,0 +1,511 @@
+@import '/src/styles/color/colors';
+@import '/src/styles/responsive/responsive';
+
+body {
+    font-family: 'Poppins';
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.experience-title {
+    color: $black;
+    text-align: center;
+    padding: 3rem;
+}
+
+.experience-title h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    font-size: 64px;
+}
+
+.experience-title h2{
+    font-size: 20px;
+}
+
+.swiper-slide{
+    position: relative;
+}
+
+.swiper-slide img {
+    margin-top: 1rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    filter: drop-shadow(5px 10px 7px rgba(0, 0, 0, 0.315));
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.swiper-slide img:hover{
+    transform: scale(1.025);
+}
+
+.swiper-slide .content-left{
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    left: -17%;
+    opacity: 0;
+    color: $white-snow; 
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000
+}
+
+.swiper-slide .content-right{
+    width: 100%;
+    position: absolute;
+    bottom: 25%;
+    left: 17%;
+    opacity: 0;
+    color: $white-snow; 
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000
+}
+
+.swiper-slide img:hover + .content-right, .swiper-slide img:hover + .content-left{
+    opacity: 1;
+}
+
+.swiper-slide-shadow-left, .swiper-slide-shadow-right {
+    display: none;
+}
+
+.slider-controler {
+    position: relative;
+    bottom: 7rem;
+}
+
+.slider-controler .swiper-button-next {
+    left: 58% !important;
+    transform: translateX(-58%) !important;
+}
+
+.slider-controler .slider-arrow {
+    background-color: $white;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    left: 42%;
+    transform: translateX(-42%);
+    filter: drop-shadow(0px 5px 10px rgba(18, 28, 53, 0.1));
+}
+
+.slider-controler .slider-arrow {
+  color: $black;
+}
+
+.slider-arrow .arrow{
+    width: 30px;
+}
+
+.slider-controler .slider-arrow::after {
+    content: '';
+}
+
+.swiper-pagination {
+    height: 0;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    filter: drop-shadow(0px 5px 10px rgba(18, 28, 53, 0.603));
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background: $black;
+}
+
+// responsive
+@media screen and (max-width: 2880px) {
+    .swiper-container {
+        height: 50rem !important;
+        width: 88.7rem !important;
+    }
+
+    .swiper-slide img{
+        width: 35rem;
+        height: 35rem;
+    }
+    .swiper-slide .content-left{
+        bottom: 35%;
+        left: -20.5%;
+    }
+    .swiper-slide .content-right{
+        bottom: 35%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .swiper-container {
+        height: 50rem !important;
+        width: 70rem !important;
+    }
+
+    .swiper-slide img{
+        width: 35rem;
+        height: 35rem;
+    }
+    .swiper-slide .content-left{
+        bottom: 35%;
+        left: -20.5%;
+    }
+    .swiper-slide .content-right{
+        bottom: 35%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .swiper-container {
+        height: 60rem !important;
+        width: 160rem !important;
+    }
+
+    .swiper-slide img{
+        width: 65rem;
+        height: 45rem;
+    }
+    .swiper-slide .content-left{
+        bottom: 30%;
+        left: -20.5%;
+    }
+    .swiper-slide .content-right{
+        bottom: 30%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width: 2048px) {
+    .swiper-container {
+        height: 60rem !important;
+        width: 128rem !important;
+    }
+
+    .swiper-slide img{
+        width: 50rem;
+        height: 45rem;
+    }
+    .swiper-slide .content-left{
+        bottom: 30%;
+        left: -20.5%;
+    }
+    .swiper-slide .content-right{
+        bottom: 30%;
+        left: 21%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .swiper-container {
+        height: 50rem !important;
+        width: 88.7rem !important;
+    }
+
+    .swiper-slide img{
+        width: 30rem;
+        height: 35rem;
+    }
+    .swiper-slide h3{
+        font-size: 20px;
+    }
+    .swiper-slide h4{
+        font-size: 15px;
+    }
+    .swiper-slide .content-left{
+        bottom: 30%;
+        left: -17%;
+    }
+    .swiper-slide .content-right{
+        bottom: 30%;
+        left: 18%;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .swiper-container {
+        height: 55rem !important;
+        width: 85.4rem !important;
+    }
+    .swiper-slide img{
+        width: 35rem;
+        height: 40rem;
+    }
+    .swiper-slide .content-left{
+        bottom: 30%;
+        left: -21%;
+    }
+    .swiper-slide .content-right{
+        bottom: 30%;
+        left: 22%;
+    }
+}
+
+@media screen and (max-width: $extra){
+    .swiper-container {
+        height: 44rem !important;
+        width: 80rem !important;
+    }
+    .swiper-slide img {
+        width: 28rem !important;
+        height: 32rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 28%;
+        left: -18%;
+    }
+    .swiper-slide .content-right{
+        bottom: 28%;
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: $large){
+    .experience-title h1{
+        font-size: 50px;
+    }
+    .swiper-container {
+        height: 44rem !important;
+        width: 64rem !important;
+    }
+    .swiper-slide img {
+        width: 28rem !important;
+        height: 32rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 30%;
+        left: -22%;
+    }
+    .swiper-slide .content-right{
+        bottom: 30%;
+        left: 23%;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .slider-controler .swiper-button-next {
+      left: 70% !important;
+      transform: translateX(-70%) !important;
+    }
+  
+    .slider-controler .swiper-button-prev {
+      left: 30% !important;
+      transform: translateX(-30%) !important;
+    }
+}
+
+@media screen and (max-width: $slarge){
+    .experience-title h1{
+        font-size: 46px;
+    }
+    .swiper-container {
+        height: 40rem !important;
+        width: 57rem !important;
+    }
+    .swiper-slide img {
+        width: 22rem !important;
+        height: 26rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 35%;
+        left: -19%;
+    }
+    .swiper-slide h3{
+        font-size: 17px;
+    }
+    .swiper-slide h4{
+        font-size: 13px;
+    }
+    .swiper-slide .content-right{
+        bottom: 35%;
+        left: 21.5%;
+    }
+}
+
+@media screen and (max-width: 853px) {
+    .swiper-container {
+        height: 40rem !important;
+        width: 53.3rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 35%;
+        left: -21%;
+    }
+    .swiper-slide .content-right{
+        bottom: 35%;
+        left: 23%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .swiper-container {
+        height: 40rem !important;
+        width: 51.2rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 35%;
+        left: -22%;
+    }
+    .swiper-slide .content-right{
+        bottom: 35%;
+        left: 24%;
+    }
+}
+
+@media screen and (max-width: $medium){
+    .experience-title h1{
+        font-size: 42px;
+    }
+    .experience-title h2{
+        font-size: 18px;
+    }
+    .swiper-container {
+        height: 54rem !important;
+        width: 48rem !important;
+    }
+    .swiper-slide img {
+        width: 30rem !important;
+        height: 22rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 60%;
+        left: 1.5%;
+    }
+    .swiper-slide h3{
+        font-size: 20px;
+    }
+    .swiper-slide h4{
+        font-size: 14px;
+    }
+    .swiper-slide .content-right{
+        bottom: 20%;
+        left: 1.5%;
+    }
+    .slider-controler {
+        bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: $smedium){
+    .experience-title h1{
+        font-size: 36px;
+    }
+    .experience-title h2{
+        font-size: 16px;
+    }
+    .swiper-container {
+        height: 46rem !important;
+        width: 37rem !important;
+    }
+    .swiper-slide img {
+        width: 24rem !important;
+        height: 18rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 60%;
+        left: 1.5%;
+    }
+    .swiper-slide h3{
+        font-size: 17px;
+    }
+    .swiper-slide h4{
+        font-size: 13px;
+    }
+    .swiper-slide .content-right{
+        bottom: 20%;
+        left: 1.5%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slider-controler .swiper-button-next {
+      left: 80% !important;
+      transform: translateX(-80%) !important;
+    }
+  
+    .slider-controler .swiper-button-prev {
+      left: 20% !important;
+      transform: translateX(-20%) !important;
+    }
+}
+
+@media screen and (max-width: $bsmall){
+    .experience-title h1{
+        font-size: 26px;
+    }
+    .experience-title h2{
+        font-size: 14px;
+    }
+    .swiper-container {
+        height: 44rem !important;
+        width: 26rem !important;
+    }
+    .swiper-slide img {
+        width: 22rem !important;
+        height: 16rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 63%;
+        left: 1.5%;
+    }
+    .swiper-slide h3{
+        font-size: 15px;
+    }
+    .swiper-slide h4{
+        font-size: 13px;
+    }
+    .swiper-slide .content-right{
+        bottom: 23%;
+        left: 1.5%;
+    }
+    .slider-controler {
+        bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: $small){
+    .experience-title h1{
+        font-size: 22px;
+    }
+    .experience-title h2{
+        font-size: 12px;
+    }
+    .swiper-container {
+        height: 44rem !important;
+        width: 23.5rem !important;
+    }
+    .swiper-slide img {
+        width: 20rem !important;
+        height: 16rem !important;
+    }
+    .swiper-slide .content-left{
+        bottom: 63%;
+        left: 1.5%;
+    }
+    .swiper-slide h3{
+        font-size: 15px;
+    }
+    .swiper-slide h4{
+        font-size: 13px;
+    }
+    .swiper-slide .content-right{
+        bottom: 23%;
+        left: 1.5%;
+    }
+    .slider-controler {
+        bottom: 5rem;
+    }
+}

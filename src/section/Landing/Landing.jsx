@@ -45,7 +45,7 @@ const Landing = () => {
                             <h1>
                                 <Typed
                                     strings={[
-                                        "Application Developer Intern<br>@PT Bank Central Asia (BCA)","a Back-End Developer<br>@Webcreativs","Computer Science Student","Binusian 2025"
+                                        "Application Developer Intern<br>@PT Bank Central Asia (BCA)","a Application Developer<br>@Webcreativs","Computer Science Student","Binusian 2025"
                                     ]}
                                     typeSpeed={150}
                                     backSpeed={100}

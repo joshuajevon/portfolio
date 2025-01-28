@@ -28,7 +28,7 @@ const About = () => {
                                 </p>
                                 <br/>
                                 <p>
-                                    Currently, I hold the position of Application Developer Intern at PT Bank Central Asia Tbk (BCA), where I contribute as a Back-End developer. However, I eager to learn software engineering in general and other knowledge within the field of technology. Feel free to explore the projects I have worked on and the creations I have made.
+                                    Currently, I hold the position of Application Developer Intern at PT Bank Central Asia Tbk (BCA), where I contribute as a Application developer. However, I eager to learn software engineering in general and other knowledge within the field of technology. Feel free to explore the projects I have worked on and the creations I have made.
                                 </p>
                             </div>
                         </Fade>
