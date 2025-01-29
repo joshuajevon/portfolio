@@ -10,7 +10,7 @@ import { FaArrowRight, FaArrowLeft, FaNetworkWired } from "react-icons/fa";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import bcaExp from "../../assets/image/experience/bca.png"
+import bcaExp from "../../assets/image/experience/bca1.png"
 import bcaExp2 from "../../assets/image/experience/bca2.jpg"
 import bnccExp from "../../assets/image/experience/bncc.png"
 import bnccExp2 from "../../assets/image/experience/bncc2.jpg"
