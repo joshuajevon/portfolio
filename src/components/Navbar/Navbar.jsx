@@ -76,7 +76,7 @@ class Navbar extends Component{
               </li>
               <li>
                 <a href="">
-                  <Link to="experience" spy={true} smooth={true} offset={-50} duration={500} onClick={this.handleMenuItemClick}>
+                  <Link to="experience" spy={true} smooth={true} offset={30} duration={500} onClick={this.handleMenuItemClick}>
                     Experiences
                   </Link>
                 </a>
