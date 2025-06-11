@@ -7,16 +7,14 @@ import HTML from "../../assets/icon/Skills/html.svg"
 import CSS from "../../assets/icon/Skills/css.svg"
 import js from "../../assets/icon/Skills/js.svg"
 import Github from "../../assets/icon/Skills/github.svg"
-import Asp from "../../assets/icon/Skills/asp.svg"
+import Golang from "../../assets/icon/Skills/golang.svg"
 import Java from "../../assets/icon/Skills/java.svg"
 import MySql from "../../assets/icon/Skills/mysql.svg"
 import Python from "../../assets/icon/Skills/python.svg"
 import NodeJS from "../../assets/icon/Skills/nodejs.svg"
-import Typescript from "../../assets/icon/Skills/typescript.svg"
-import Bootstrap from "../../assets/icon/Skills/bootstrap.svg"
+import Postgre from "../../assets/icon/Skills/postgre.svg"
 import Php from "../../assets/icon/Skills/php.svg"
 import C from "../../assets/icon/Skills/c.svg"
-import GitVCS from "../../assets/icon/Skills/gitvcs.svg"
 import Spring from "../../assets/icon/Skills/spring.svg"
 import Api from "../../assets/icon/Skills/api.svg"
 
@@ -30,23 +28,21 @@ const Skills = () => {
                 </div>
                 <div className="slide-container">    
                     <div className="slide-show1">
-                        {/* <img src={Bootstrap} alt="Bootstrap" /> */}
                         <img src={js} alt="js" />
                         <img src={CSS} alt="CSS" />
                         <img src={HTML} alt="HTML" />
-                        <img src={Typescript} alt="Typescript" />
                         <img src={NodeJS} alt="NodeJS" />
                         <img src={React1} alt="React" />
                         <img src={Api} alt="Api" />
                         <img src={Laravel} alt="Laravel" />
+                        <img src={Golang} alt="Golang" />
                     </div>
 
                     <div className="slide-show2">
                         <img src={Spring} alt="Spring" />
-                        <img src={Github} alt="Github" />
-                        {/* <img src={GitVCS} alt="GitVCS" /> */}
-                        <img src={Asp} alt="Asp" />
                         <img src={Java} alt="Java" />
+                        <img src={Postgre} alt="Postgre" />
+                        <img src={Github} alt="Github" />
                         <img src={Php} alt="Php" />
                         <img src={MySql} alt="MySql" />
                         <img src={Python} alt="Python" />

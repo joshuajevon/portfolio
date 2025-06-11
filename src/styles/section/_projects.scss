@@ -31,7 +31,8 @@
 
 .projects-row{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 4rem;
 }
 
@@ -41,8 +42,20 @@
     transform: translateY(0);
 }
 
+.projects-row .card-image {
+    display: flex;
+    flex-direction: row;
+}
+
 .projects-row .card-image img:hover{
     transform: translateY(5px) ;
+}
+
+.card {
+  height: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .tech{
@@ -70,16 +83,18 @@
     border: $white-main 1px solid;
 }
 
-// @media screen and (max-width: $extra) {
+.projects-content button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $black;
+    background-color: $white;
+}
 
-//     .projects-title h1{
-//         font-size: 48px;
-//     }
-//     .projects-title img{
-//         width: 48px;
-//     }
-  
-//   }
+.projects-content button:hover{
+    background-color: $white-snow;
+}
 
 @media screen and (max-width: $large) {
     .projects-title h1{

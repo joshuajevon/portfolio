@@ -45,7 +45,7 @@ const Landing = () => {
                             <h1>
                                 <Typed
                                     strings={[
-                                        "Application Developer Intern<br>@PT Bank Central Asia (BCA)","a Application Developer<br>@Webcreativs","Computer Science Student","Binusian 2025"
+                                        "Ex Application Developer Intern<br>@PT Bank Central Asia (BCA)","a Software Engineer","Computer Science Student","Binusian 2025"
                                     ]}
                                     typeSpeed={150}
                                     backSpeed={100}
@@ -74,7 +74,7 @@ const Landing = () => {
                 </div>
                 <Fade bottom top-distance="10%">
                     <div className="landing-bottom">
-                        <Button image={cv} text="See My CV" link="https://drive.google.com/file/d/1IgJNJiERwibbf81agZ6IniSUATBC63dE/view?usp=sharing"/>
+                        <Button image={cv} text="See My CV" link="https://drive.google.com/file/d/1SdsknA0bVKxn8yZIzwvjFwZrZtfWZSwA/view?usp=sharing"/>
                         <p>For more details, please <br/> visit my linkedin...</p>
                     </div>
                 </Fade>

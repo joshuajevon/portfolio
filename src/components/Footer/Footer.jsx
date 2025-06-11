@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div className="footer-container">
                 <div className="footer-text">
-                    <p>© 2023 JJI, All Right Reserved</p>
+                    <p>© 2025 JJI, All Right Reserved</p>
                     <p>Created with ❤ by Joshua Jevon Irawan</p>
                 </div>
                 <div className="footer-social-media">

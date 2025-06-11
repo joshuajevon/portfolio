@@ -24,11 +24,11 @@ const About = () => {
                         <Fade left >
                             <div className="description">
                                 <p>
-                                    Welcome to my Portofolio Website! My name is Joshua Jevon Irawan, and I am a passionate computer science student at Binus University. Throughout my academic journey and organizational experiences, I have developed a diverse skill set in various areas of computer science. I take pride in my ability to work effectively within a team and have earned a reputation for being a trustworthy and dependable individual. 
+                                    Welcome to my Portofolio Website! My name is Joshua Jevon Irawan, and I am a passionate computer science student at Binus University. Throughout my academic journey and organizational experiences, I have developed a diverse skill set in various areas of computer science. I take pride in my ability to work effectively within a team and have earned a reputation for being a trustworthy and dependable individual.
                                 </p>
                                 <br/>
                                 <p>
-                                    Currently, I hold the position of Application Developer Intern at PT Bank Central Asia Tbk (BCA), where I contribute as a Application developer. However, I eager to learn software engineering in general and other knowledge within the field of technology. Feel free to explore the projects I have worked on and the creations I have made.
+                                    However, I eager to learn software engineering in general and other knowledge within the field of technology. Feel free to explore the projects I have worked on and the creations I have made.
                                 </p>
                             </div>
                         </Fade>
